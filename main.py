@@ -56,7 +56,7 @@ def turkey():
 def not_found(error_404):
     return render_template("404.html")
 
-#app.run(debug=True) #debug mode is on
+app.run(debug=False) #debug mode is on
 
  #The default hosting server is 127.0.0.1 and port is 5000. If your want to change it
 #host="192.168.20.1", port=444(What ever port is available) 
