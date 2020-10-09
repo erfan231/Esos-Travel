@@ -35,6 +35,10 @@ main.css is the style file for this project where all the CSS code is
 
 script.js don't contain anything because the JS is added inside the html file
 
+### ← requirements.txt
+
+requirements.txt contains all the libraries you need to run the project
+
 ### ← assets
 
 where all the images are.
