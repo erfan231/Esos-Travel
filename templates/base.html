@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device, initial-scale=1.0">
+    <meta https-equiv="X UA-Compatible" content="ieedge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  {% block head %} {% endblock %}
+</head>
+
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1 id="header" onclick="myFunction()">Paris</h1>
+  
+</div>
+
+
+<script>
+function myFunction() {
+  document.getElementById("header").style.color = "red";
+}
+</script>
+  
+  {% block body %} {% endblock %}
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="family">Family</a></li>
+  <li><a href="couple">Couples</a></li>
+</ul>
+ <div class="fixed-footer">
+        <div class="container">Copyright &copy; 2020 Esos</div>        
+    </div>
+</body>
+</html>

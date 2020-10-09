@@ -1,0 +1,192 @@
+*{
+  margin:0px;
+}
+
+#container {
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: lightblue;
+
+}
+
+
+body{
+  background-color:
+}
+
+
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	margin-bottom:2%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+h3, p{
+	font-family: 'Georgia ', sans-serif;
+	margin-bottom: 30px;
+}
+
+footer {
+  background-color: white;
+  padding: 20px;
+  color: Black;
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* when hover over the nav bars */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+
+/* when hover over the images */
+div.gallery:hover {
+  border: 5px solid #fdffcd;
+}
+ 
+div.gallery img {
+  width: 100%;
+  height: 100;
+}
+
+/* for the text boxes */
+div.desc {
+  padding: 5px;
+  text-align: center;
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* this is for the image size */
+.responsive {
+  padding: 6px;
+  float: left;
+  width: 24.9%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.9%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+/* this is for the image content(the text underneat the images) */
+.clearfix:after {
+  content: ""; /* content is added in index file */
+  display: table;
+  clear: both;
+
+/* this is for the footer only for index family and couple pages*/
+
+  
+
+  
+.iconDetails {
+ margin-left:2%;
+float:left; 
+height:40px;
+width:40px; 
+} 
+
+.container2 {
+    width:270px;
+    height:auto;
+    padding:1%;
+    float:left;
+}
+h4{margin:0}
+.left {float:left;width:45px;}
+.right {float:left;margin:0 0 0 5px;width:215px;}
+  
+  
+  
+  }
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 2px;
+  overflow: show;
+
+}
+
+/* for the seperate pages since they contain different CSS design */
+.fixed-footer {
+    background-color: #Ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+}
+
+.pic {
+  display: auto;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+  .pic {
+    width: 49.9%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pic {
+    width: 100%;
+  }
+}
+

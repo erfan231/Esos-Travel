@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  {% block head %} {% endblock %}
+    <div class="head">
+<h1>Top 2 places for families</h1>
+<h3>We share places that we've visited so far and would encourage you to visit it</h3>
+    </div>
+  </head>
+  
+ <body>
+    {% block body %} {% endblock %}
+   
+ 
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="family">Family</a></li>
+  <li><a href="couple">Couples</a></li>
+</ul>
+   
+</body>
+<div class="fixed-footer">
+        <div class="container">Copyright &copy; 2020 Esos</div>        
+    </div>
+</html>
