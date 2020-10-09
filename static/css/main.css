@@ -11,11 +11,6 @@
 }
 
 
-body{
-  background-color:
-}
-
-
 
 h1 {
 	font-family: 'Dancing Script', cursive;
@@ -117,6 +112,7 @@ div.desc {
   content: ""; /* content is added in index file */
   display: table;
   clear: both;
+}
 
 /* this is for the footer only for index family and couple pages*/
 
@@ -142,7 +138,6 @@ h4{margin:0}
   
   
   
-  }
 .menu {
   float: left;
   width: 20%;
@@ -176,17 +171,3 @@ h4{margin:0}
   align-items: center;
   flex-direction: row;
 }
-
-@media only screen and (max-width: 700px) {
-  .pic {
-    width: 49.9%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .pic {
-    width: 100%;
-  }
-}
-
